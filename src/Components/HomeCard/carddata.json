@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "img": "https://i.ibb.co/kJ159wj/10020.jpg",
+      "title": "20% Off On Tank Tops",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum."
+    },
+    {
+      "id": "2",
+      "img": "https://i.ibb.co/r6f34Fj/10021.jpg",
+      "title": "Latest Eyewear For You",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum."
+    },
+    {
+      "id": "3",
+      "img": "https://i.ibb.co/GRpYhHP/10022.jpg",
+      "title": "Let's Lorem Suit Up!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum."
+    }
+  ]
+  

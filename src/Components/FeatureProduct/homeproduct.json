@@ -1,0 +1,83 @@
+[
+    {
+      "id": "1",
+      "gender": "Men",
+      "name": "Men's T-Shirt",
+      "price": 19.99,
+      "description": "Comfortable and stylish men's t-shirt.",
+      "image": "https://i.ibb.co/r6f34Fj/10021.jpg"
+    },
+    {
+      "id": "2",
+      "gender": "Men",
+      "name": "Men's Jeans",
+      "price": 39.99,
+      "description": "High-quality men's jeans for everyday wear.",
+      "image": "https://i.ibb.co/27SjC0F/10013.jpg"
+    },
+    {
+      "id": "3",
+      "gender": "Men",
+      "name": "Men's Sneakers",
+      "price": 59.99,
+      "description": "Stylish and comfortable men's sneakers.",
+      "image": "https://i.ibb.co/27SjC0F/10013.jpg"
+    },
+    {
+      "id": "4",
+      "gender": "Men",
+      "name": "Men's Watch",
+      "price": 99.99,
+      "description": "Elegant men's watch for any occasion.",
+      "image": "https://i.ibb.co/jf97sW0/image.png"
+    },
+    {
+      "id": "5",
+      "gender": "Men",
+      "name": "Men's Backpack",
+      "price": 49.99,
+      "description": "Spacious and durable men's backpack.",
+      "image": "https://i.ibb.co/rmhg5sz/image.png"
+    },
+    {
+      "id": "6",
+      "gender": "Women",
+      "name": "Women's Dress",
+      "price": 29.99,
+      "description": "Stylish and comfortable women's dress.",
+      "image": "https://i.ibb.co/kJ159wj/10020.jpg"
+    },
+    {
+      "id": "7",
+      "gender": "Women",
+      "name": "Women's Shoes",
+      "price": 49.99,
+      "description": "Elegant women's shoes for any occasion.",
+      "image": "https://i.ibb.co/GRpYhHP/10022.jpg"
+    },
+    {
+      "id": "8",
+      "gender": "Women",
+      "name": "Women's Handbag",
+      "price": 39.99,
+      "description": "Trendy and spacious women's handbag.",
+      "image": "https://i.ibb.co/Xj5MTdL/10030.jpg"
+    },
+    {
+      "id": "9",
+      "gender": "Women",
+      "name": "Women's Earrings",
+      "price": 24.99,
+      "description": "Elegant and sparkling women's earrings.",
+      "image": "https://i.ibb.co/8YFWDC7/10026.jpg"
+    },
+    {
+      "id": "10",
+      "gender": "Women",
+      "name": "Women's shorts",
+      "price": 34.99,
+      "description": "Fragrant and alluring women's shorts.",
+      "image": "https://i.ibb.co/ZYpKcDn/10028.jpg"
+    }
+  ]
+  
