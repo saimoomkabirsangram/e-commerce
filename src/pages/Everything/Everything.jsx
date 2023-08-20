@@ -1,12 +1,13 @@
 import React from "react";
-import Categories from "./Categories";
-import Productlist from "./Productlist";
+import Outlet2 from "./Outlet2";
+import Outlet3 from "./Outlet3";
+
 
 const Everything = () => {
   return (
-    <div className="lg:grid lg:grid-cols-2 ">
-      <Categories />
-      <Productlist />
+    <div className="lg:flex lg:justify-between bg-gray-300">
+      <Outlet2></Outlet2>
+      <Outlet3></Outlet3>
     </div>
   );
 };

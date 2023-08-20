@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Categories = () => {
+const Outlet2 = () => {
   return (
-    <div className='w-1/2'>
+    <div className='lg:w-2/5 w-full '>
         <div className="mt-10 p-5">
             <div className="flex">
               <input
@@ -29,9 +29,9 @@ const Categories = () => {
               <h1 className="mt-5 text-xl">Our Best Seller</h1>
             </div>
         </div>
-          <div></div>
+        <div></div>
     </div>
   )
 }
 
-export default Categories
+export default Outlet2;
