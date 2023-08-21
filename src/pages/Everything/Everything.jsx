@@ -5,7 +5,7 @@ import Outlet3 from "./Outlet3";
 
 const Everything = () => {
   return (
-    <div className="lg:flex lg:justify-between bg-gray-300">
+    <div className="lg:flex lg:justify-between lg:bg-gray-300 bg-white">
       <Outlet2></Outlet2>
       <Outlet3></Outlet3>
     </div>

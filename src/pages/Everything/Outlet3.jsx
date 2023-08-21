@@ -2,20 +2,56 @@ import React from "react";
 
 const Outlet3 = () => {
   return (
-    <div className="bg-white ">
-      <div className="lg:w-4/5 w-full grid grid-cols-3">
-        <div className="card card-compact w-full bg-base-100 shadow-xl">
-          <figure>
-            <img src="https://i.ibb.co/27SjC0F/10013.jpg" alt="Shoes" />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+    <div className="bg-white lg:m-16 lg:p-5 w-full lg:w-9/12  ">
+      <div className=" grid lg:grid-cols-3 grid-cols-2 gap-5 lg:p-20">
+      <div className="card w-full glass">
+        <figure>
+          <img src="https://i.ibb.co/27SjC0F/10013.jpg" alt="car!" />
+        </figure>
+        <div className="card-body text-black">
+          <h2 className="card-title">Tittle</h2>
+          <p>Description</p>
+          <div className="card-actions justify-start">
+            <button className="btn bg-grey text-white ">Shop Now</button>
           </div>
         </div>
+      </div>
+      <div className="card w-full glass">
+        <figure>
+          <img src="https://i.ibb.co/27SjC0F/10013.jpg" alt="car!" />
+        </figure>
+        <div className="card-body text-black">
+          <h2 className="card-title">Tittle</h2>
+          <p>Description</p>
+          <div className="card-actions justify-start">
+            <button className="btn bg-grey text-white ">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div className="card w-full glass">
+        <figure>
+          <img src="https://i.ibb.co/27SjC0F/10013.jpg" alt="car!" />
+        </figure>
+        <div className="card-body text-black">
+          <h2 className="card-title">Tittle</h2>
+          <p>Description</p>
+          <div className="card-actions justify-start">
+            <button className="btn bg-grey text-white ">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div className="card w-full glass">
+        <figure>
+          <img src="https://i.ibb.co/27SjC0F/10013.jpg" alt="car!" />
+        </figure>
+        <div className="card-body text-black">
+          <h2 className="card-title">Tittle</h2>
+          <p>Description</p>
+          <div className="card-actions justify-start">
+            <button className="btn bg-grey text-white ">Shop Now</button>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );
