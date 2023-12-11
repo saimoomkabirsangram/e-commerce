@@ -39,16 +39,16 @@ const Navbar = () => {
                 <Link to="/men" >Men</Link>
               </li>
               <li>
-                <a>Women</a>
+                <Link>Women</Link>
               </li>
               <li>
-                <a>Accessories</a>
+                <Link>Accessories</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case lg:text-3xl text-sm  font-mono">
-            E-commerce
-          </a>
+          <div>
+           <Link className="btn btn-ghost normal-case lg:text-3xl text-sm font-mono">E-Commerce</Link>
+          </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
@@ -56,19 +56,19 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/everything">
-                <a>Everything</a>
+                Everything
                 </Link>
               </li>
               <li>
               <Link to="/men">
-                <a>Men</a>
+                Men
                 </Link>
               </li>
               <li>
-                <a>Women</a>
+                <Link>Women</Link>
               </li>
               <li>
-                <a>Accessories</a>
+                <Link>Accessories</Link>
               </li>
             </ul>
           </div>
@@ -76,19 +76,19 @@ const Navbar = () => {
         {/* <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link>Home</Link>
             </li>
             <li>
-              <a href="">Everything</a>
+              <Link>Everything</Link>
             </li>
             <li>
-              <a href="">Men</a>
+              <Link>Men</Link>
             </li>
             <li>
-              <a>Women</a>
+              <Link>Women</Link>
             </li>
             <li>
-              <a>Accessories</a>
+              <Link>Accessories</Link>
             </li>
           </ul>
         </div> */}
@@ -96,10 +96,10 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>About Us</a>
+                <Link>About Us</Link>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <Link>Contact Us</Link>
               </li>
             </ul>
           </div>

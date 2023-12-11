@@ -1,7 +1,6 @@
 import React from "react";
 
 const HomeCard = ({ card }) => {
-  console.log(card);
 
   return (
     <div className="flex justify-center items-center py-5">
