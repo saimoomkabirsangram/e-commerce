@@ -111,7 +111,7 @@ const FeatureProduct = ({ product }) => {
               isHovered ? "opacity-100" : "opacity-0"
             }`}
           >
-            <HiShoppingBag size={20} />
+            <a href="#"><HiShoppingBag size={20} /></a>
           </div>
 
           <img
@@ -121,37 +121,37 @@ const FeatureProduct = ({ product }) => {
             style={{ objectFit: "cover" }}
           />
         </figure>
-        <div className="lg:mt-5 lg:py-3 ms-10 lg:ms-0 mt-5">
-          <h2 className="card-title mb-2">{product.name}</h2>
-          <h3 className="mb-2">{product.gender}</h3>
-          <p className="mb-2">{product.price}$</p>
+        <div className="lg:mt-5 lg:py-3 text-center lg:text-start lg:ms-0 mt-5">
+          <h2 className="font-semibold  mb-2">{product.name}</h2>
+          <h3 className="mb-2 font-extralight">{product.gender}</h3>
+          <p className="mb-2 font-semibold">{product.price}$</p>
           <div>
             <div className="rating w-20">
               <input
                 type="radio"
                 name="rating-4"
-                className="mask mask-star-2 bg-black"
+                className="mask mask-star-2"
               />
               <input
                 type="radio"
                 name="rating-4"
-                className="mask mask-star-2 bg-black"
+                className="mask mask-star-2"
                 checked
               />
               <input
                 type="radio"
                 name="rating-4"
-                className="mask mask-star-2 bg-black"
+                className="mask mask-star-2"
               />
               <input
                 type="radio"
                 name="rating-4"
-                className="mask mask-star-2 bg-black"
+                className="mask mask-star-2"
               />
               <input
                 type="radio"
                 name="rating-4"
-                className="mask mask-star-2 bg-black"
+                className="mask mask-star-2"
               />
             </div>
           </div>
