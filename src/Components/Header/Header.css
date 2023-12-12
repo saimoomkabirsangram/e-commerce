@@ -1,0 +1,9 @@
+.header-img {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(16, 87, 125, 0.7), rgba(6, 47, 69, 0.3)), url('https://i.ibb.co/8M3VW7z/home-new-bg-free-img.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
