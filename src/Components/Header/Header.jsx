@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="header-img">
-      {/* <Navbar></Navbar> */}
+
       <div className="lg:py-44 lg:px-0 pt-10 lg:text-start text-center">
         <div className="headerText flex flex-col lg:justify-start lg:items-start justify-center items-center lg:ms-28">
           <h1 className=" text-white text-5xl lg:text-7xl font-bold">
