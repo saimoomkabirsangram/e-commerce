@@ -73,25 +73,6 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        {/* <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <Link>Home</Link>
-            </li>
-            <li>
-              <Link>Everything</Link>
-            </li>
-            <li>
-              <Link>Men</Link>
-            </li>
-            <li>
-              <Link>Women</Link>
-            </li>
-            <li>
-              <Link>Accessories</Link>
-            </li>
-          </ul>
-        </div> */}
         <div className="navbar-end gap-4">
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
