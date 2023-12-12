@@ -49,7 +49,7 @@ import "./HomeCard.css";
 
 const HomeCard = ({ card }) => {
   return (
-    <div className="relative  overflow-hidden shadow-lg group mt-10 mb-20 h-96">
+    <div className="relative overflow-hidden shadow-lg group mt-10 mb-20 h-[480px]">
       <img
         className="transition-transform group-hover:scale-110 duration-200 object-cover w-full h-full"
         src={card?.img}
