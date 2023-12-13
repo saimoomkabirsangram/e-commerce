@@ -1,33 +1,18 @@
-import React, { useEffect, useState } from "react";
-import AboutUs from "./AboutUs";
+import React from 'react'
+import teamData from './teamData.json'
+import Card from './Card'
 
 const PersonCard = () => {
-  const [peoples, setPeoples] = useState([]);
-
-  useEffect(() => {
-
-    const fetchData = async () => {
-      try {
-        const response = await fetch("./TeamData.json");
-        const data = await response.json();
-        console.log("Fetched Data:", data);
-        setPeoples(data);
-      } catch (error) {
-        console.error("Error Fetching Data:");
-      }
-    };
-
-  }, []);
-
-  
-
   return (
-    <div>
-      {peoples.map((person) => (
-        <AboutUs key={person?.id} person={person}></AboutUs>
-      ))}
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4  mx-20 mb-20'>
+      {
+        teamData.map((person) => <Card 
+        key={person.id}
+        person={person}
+        ></Card>)
+      }
     </div>
-  );
-};
+  )
+}
 
 export default PersonCard;
