@@ -1,14 +1,19 @@
 import React from "react";
+import { LiaFacebookF } from "react-icons/lia";
+import { FaYoutube } from "react-icons/fa6";
+import { IoLogoTwitter } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa6";
+import { FaGoogle } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
-        <div className="text-black text-center">
+    <div className="lg:mx-20">
+        <div className="text-black text-center ">
           <hr />
-          <h1 className="my-14">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
+          <h1 className="my-14 lg:text-3xl  font-bold hover:text-blue-500">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
           <hr />
         </div>
-      <footer className="footer p-10 text-black lg:py-10 mt-4 text-center">
+      <footer className="footer  text-black  my-4 text-center mb-10">
 
         <div className="">
           <h1 className="font-bold text-3xl mb-6 ">DNK 2.0 </h1>
@@ -44,6 +49,27 @@ const Footer = () => {
         </div>
         
       </footer>
+      <hr />
+      <div className="lg:flex block justify-between items-center py-8 text-black">
+        <p>Copyright © 2023 Brandstore. Powered by Brandstore.</p>
+        <div className="flex justify-center items-center mr-24">
+          <div className="text-xl mx-2">
+          <LiaFacebookF />
+          </div>
+          <div  className="text-xl mx-2">
+          <FaYoutube />
+          </div>
+          <div  className="text-xl mx-2">
+          <IoLogoTwitter />
+          </div>
+          <div  className="text-xl mx-2">
+          <FaInstagram />
+          </div>
+          <div  className="text-xl mx-2">
+          <FaGoogle />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
