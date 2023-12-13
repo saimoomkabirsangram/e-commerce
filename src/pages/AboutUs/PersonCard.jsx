@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AboutUs from "./AboutUs";
 
 const PersonCard = () => {
-  const [people, setPeople] = useState([]);
+  const [peoples, setPeoples] = useState([]);
 
   useEffect(() => {
     fetch("./TeamData.json")
@@ -15,7 +15,8 @@ const PersonCard = () => {
         return response.json();
       })
       .then((data) => {
-        setPeople(data);
+        setPeoples(data);
+        console.log(data)
       })
       .catch((error) => {
         console.error("Error Fetching Data:", error.message);
@@ -24,8 +25,8 @@ const PersonCard = () => {
 
   return (
     <div>
-      {people.map((person) => (
-        <AboutUs key={person.id} person={person}></AboutUs>
+      {peoples.map((person) => (
+        <AboutUs key={person?.id} person={person}></AboutUs>
       ))}
     </div>
   );

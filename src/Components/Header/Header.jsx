@@ -16,13 +16,13 @@ const Header = () => {
         </div>
         <div className="headerButton lg:flex lg:ms-28 lg:mt-5 mt-2 p-5 lg:p-0 lg:justify-start lg:items-start justify-center items-center ">
           <button
-            className="rounded lg:px-8 lg:py-3 hover:bg-black mb-1  
+            className=" lg:px-4 lg:py-3 hover:bg-black mb-1 mr-3
               hover:text-white font-bold py-1 px-1 text-black bg-white  block lg:w-[180px] w-full"
           >
             <Link>Shop Now</Link>
           </button>
             <button
-              className="rounded lg:px-8 lg:py-3 lg:ms-2 hover:bg-white
+              className=" lg:px-4 lg:py-3 lg:ms-2 hover:bg-white
         hover:text-black font-bold py-1 px-1 text-white border block lg:w-[180px] w-full"
             >
           <Link>
