@@ -7,13 +7,13 @@ import { FaGoogle } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="lg:mx-20">
+    <div className="lg:mx-20 py-20">
         <div className="text-black text-center ">
           <hr />
           <h1 className="my-14 lg:text-3xl  font-bold hover:text-blue-500">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
           <hr />
         </div>
-      <footer className="footer  text-black  my-4 text-center mb-10">
+      <footer className="footer  text-black  my-4 text-center mb-10 py-10">
 
         <div className="">
           <h1 className="font-bold text-3xl mb-6 ">DNK 2.0 </h1>
@@ -50,22 +50,22 @@ const Footer = () => {
         
       </footer>
       <hr />
-      <div className="lg:flex block justify-between items-center py-8 text-black">
-        <p>Copyright © 2023 Brandstore. Powered by Brandstore.</p>
+      <div className="lg:flex block justify-between items-center pt-8 text-black">
+        <p>Copyright © 2023 DNK 2.0  Powered by DNK 2.0</p>
         <div className="flex justify-center items-center mr-24">
-          <div className="text-xl mx-2">
+          <div className="text-xl mx-3">
           <LiaFacebookF />
           </div>
-          <div  className="text-xl mx-2">
+          <div  className="text-xl mx-3">
           <FaYoutube />
           </div>
-          <div  className="text-xl mx-2">
+          <div  className="text-xl mx-3">
           <IoLogoTwitter />
           </div>
-          <div  className="text-xl mx-2">
+          <div  className="text-xl mx-3">
           <FaInstagram />
           </div>
-          <div  className="text-xl mx-2">
+          <div  className="text-xl mx-3">
           <FaGoogle />
           </div>
         </div>
