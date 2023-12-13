@@ -6,9 +6,9 @@ import { SlLock } from 'react-icons/sl';
 
 const CompanyServices = () => {
   return (
-    <div>
+    <div className="lg:mx-20">
       <div className='block lg:flex text-black text-center lg:my-20 my-6'>
-        <div className='lg:my-0 my-20'>
+        <div className='lg:my-0 my-20 mx-3'>
           <div className='flex justify-center items-center text-6xl '>
             <IoEarthOutline />
           </div>
@@ -17,7 +17,7 @@ const CompanyServices = () => {
             It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
         </div>
-        <div  className='lg:my-0 mb-20'>
+        <div  className='lg:my-0 mb-20 mx-3'>
           <div className='flex justify-center items-center text-6xl '>
             <IoBodyOutline />
           </div>
@@ -26,7 +26,7 @@ const CompanyServices = () => {
             It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
         </div>
-        <div className='lg:my-0 mb-20'>
+        <div className='lg:my-0 mb-20 mx-3'>
           <div className='flex justify-center items-center text-6xl '>
             <MdOutlineLocalOffer />
           </div>
@@ -35,7 +35,7 @@ const CompanyServices = () => {
             It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
         </div>
-        <div className='lg:my-0 mb-20'>
+        <div className='lg:my-0 mb-20 mx-3'>
           <div className='flex justify-center items-center text-6xl '>
             <SlLock />
           </div>
