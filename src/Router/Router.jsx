@@ -5,6 +5,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Everything from '../pages/Everything/Everything'
 import Men from '../Components/Men/Men'
 import Home from '../Components/Home/Home'
+import AboutUs from '../pages/AboutUs/AboutUs'
 
 const Router = createBrowserRouter ([
     {
@@ -23,6 +24,10 @@ const Router = createBrowserRouter ([
             {
                 path: "/men",
                 element: <Men></Men>
+            },
+            {
+                path: "/about",
+                element: <AboutUs></AboutUs>
             }
         ]
     }

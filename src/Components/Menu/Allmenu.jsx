@@ -7,6 +7,7 @@ import FeatureProductCard from '../FeatureProduct/FeatureProductCard'
 import SpecialEdition from '../SpecialEdition/SpecialEdition'
 import Footer from '../Footer/Footer'
 import CompanyServices from '../CompanyServices/CompanyServices'
+import PersonCard from '../../pages/AboutUs/PersonCard'
 
 const Allmenu = () => {
   return (
@@ -17,6 +18,7 @@ const Allmenu = () => {
       {/* <HomeCard /> */}
       <FeatureProductCard></FeatureProductCard>
       <SpecialEdition></SpecialEdition>
+      <PersonCard></PersonCard>
       <CompanyServices/>
       <Footer></Footer>
     </div>
