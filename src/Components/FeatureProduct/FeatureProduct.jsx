@@ -1,95 +1,3 @@
-// import React from "react";
-
-// const FeatureProduct = ({ product }) => {
-//   // console.log(product)
-//   return (
-//     <div className="mt-5 lg:mt-0 ">
-//       <div className="card  text-black">
-//         <figure className="px-10 pt-10">
-//           <img src={product.image} alt="Shoes" className="" />
-//         </figure>
-//         <div className="card-body">
-//           <h2 className="card-title">{product.name}</h2>
-//           <h3 className="">{product.gender}</h3>
-//           <p>{product.price}$</p>
-//           <div>
-//             <div className="rating w-20">
-//               <input
-//                 type="radio"
-//                 name="rating-4"
-//                 className="mask mask-star-2 bg-green-500"
-//               />
-//               <input
-//                 type="radio"
-//                 name="rating-4"
-//                 className="mask mask-star-2 bg-green-500"
-//                 checked
-//               />
-//               <input
-//                 type="radio"
-//                 name="rating-4"
-//                 className="mask mask-star-2 bg-green-500"
-//               />
-//               <input
-//                 type="radio"
-//                 name="rating-4"
-//                 className="mask mask-star-2 bg-green-500"
-//               />
-//               <input
-//                 type="radio"
-//                 name="rating-4"
-//                 className="mask mask-star-2 bg-green-500"
-//               />
-//             </div>
-//           </div>
-//           {/* <div className="card-actions">
-//             <button className="btn btn-primary">Buy Now</button>
-//           </div> */}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default FeatureProduct;
-// import React from "react";
-// import { FaShoppingCart } from "react-icons/fa"; // Import the shopping cart icon from react-icons library
-
-// const FeatureProduct = ({ product }) => {
-//   return (
-//     <div className="mt-5 lg:mt-0">
-//       <div className="card text-black">
-//         <figure className=" rounded-none relative">
-//           {/* Add to Cart Icon */}
-//           <div className="absolute top-2 right-2 cart-icon opacity-0">
-//             <FaShoppingCart size={20} />
-//           </div>
-
-//           <img
-//             src={product.image}
-//             alt="Shoes"
-//             className="object-cover h-[300px] w-[300px] "
-//             style={{ objectFit: "cover" }}
-//             onMouseEnter={() => document.querySelector('.cart-icon').classList.add('opacity-100')}
-//             onMouseLeave={() => document.querySelector('.cart-icon').classList.remove('opacity-100')}
-//           />
-//         </figure>
-//         <div className="mt-5 py-3">
-//           <h2 className="card-title">{product.name}</h2>
-//           <h3>{product.gender}</h3>
-//           <p className="font-bold">{product.price}$</p>
-//           <div>
-//             <div className="rating w-20">
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default FeatureProduct;
-
 import React, { useState } from "react";
 import { HiShoppingBag } from "react-icons/hi2"; // Import the shopping cart icon from react-icons library
 // import "./FeatureProduct.css"; // Import a separate CSS file for styling
@@ -107,11 +15,21 @@ const FeatureProduct = ({ product }) => {
         >
           {/* Add to Cart Icon */}
           <div
-            className={`absolute top-2 right-2 cart-icon ${
+            className={`absolute top-5 right-5 cart-icon ${
               isHovered ? "opacity-100" : "opacity-0"
             }`}
           >
-            <a href="#"><HiShoppingBag size={20} /></a>
+            <div className="flex justify-center items-center gap-2">
+              {/* <p className="font-semibold bg-white">Add To Cart</p> */}
+              <div
+                className="font-semibold text-white tooltip tooltip-open tooltip-left"
+                data-tip="Add To Cart"
+              >
+              </div>
+              <a href="#" className=" bg-yellow-300 rounded-3xl p-2">
+                <HiShoppingBag size={20} />
+              </a>
+            </div>
           </div>
 
           <img
