@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ person }) => {
   return (
-      <div className="rounded flex justify-center items-center text-center  bg-white  w-[200px] h-[200px] ">
+      <div className="rounded flex justify-center items-center text-center bg-[#F5F7F9]  w-[200px] h-[200px] ">
         <div className="">
           <figure className="px-6 pt-2">
             <img

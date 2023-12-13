@@ -42,10 +42,10 @@ const AboutUs = () => {
       </div>
       </div>
       <div>
-        <div className="text-center " >
-          <div className=" lg:mb-10 mb-5 lg:mt-20 mt-16 m-auto border-[2px] w-28 border-blue-600 "></div>
-          <h1 className="lg:text-3xl text-2xl mb-5 text-black  ">A Few Words About</h1>
-          <h1 className="lg:text-5xl text-3xl text-black">Our Team</h1>
+        <div className="text-center   text-black" >
+          <div className=" lg:mb-10 mb-5 lg:mt-20 mt-16 m-auto border-[2px] w-28  border-blue-600 "></div>
+          <h1 className="lg:text-3xl text-2xl mb-5  ">A Few Words About</h1>
+          <h1 className="lg:text-5xl text-3x">Our Team</h1>
           <p className="p-10 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illum harum in libero quod natus officia veniam. <br /> Sint, tenetur cupiditate at aperiam cumque nostrum voluptates, repellat, magnam reprehenderit laborum quasi?</p>
         </div>
       </div>
