@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="lg:mx-20 py-20">
         <div className="text-black text-center ">
           <hr />
-          <h1 className="my-14 lg:text-3xl  font-bold hover:text-blue-500">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
+          <h1 className="my-14 lg:text-3xl text-2xl font-bold hover:text-blue-500">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
           <hr />
         </div>
       <footer className="footer  text-black  my-4 text-center mb-10 py-10">
@@ -39,9 +39,9 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title text-black">Subscribe</span>
-          <input class="shadow appearance-none border rounded bg-white w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  type="text" placeholder="Your Email Address"/>
+          <input class="shadow appearance-none border  bg-white w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  type="text" placeholder="Your Email Address"/>
           <button
-              className="rounded  lg:py-3  mb-1  
+              className="  lg:py-3  mb-1  
               hover:text-white font-bold py-1 px-1 text-white bg-blue-500  block  w-full"
             >
               SUBSCRIBE
