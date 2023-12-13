@@ -53,19 +53,19 @@ const Footer = () => {
       <div className="lg:flex block justify-between items-center pt-8 text-black">
         <p>Copyright © 2023 DNK 2.0  Powered by DNK 2.0</p>
         <div className="flex justify-center items-center mr-24">
-          <div className="text-xl mx-3">
+          <div className="text-xl mx-3 hover:text-blue-500">
           <LiaFacebookF />
           </div>
-          <div  className="text-xl mx-3">
+          <div  className="text-xl mx-3 hover:text-blue-500">
           <FaYoutube />
           </div>
-          <div  className="text-xl mx-3">
+          <div  className="text-xl mx-3 hover:text-blue-500">
           <IoLogoTwitter />
           </div>
-          <div  className="text-xl mx-3">
+          <div  className="text-xl mx-3 hover:text-blue-500">
           <FaInstagram />
           </div>
-          <div  className="text-xl mx-3">
+          <div  className="text-xl mx-3 hover:text-blue-500">
           <FaGoogle />
           </div>
         </div>
