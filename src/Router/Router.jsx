@@ -1,11 +1,11 @@
 import React from 'react'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 import Main from '../Layout/Main/Main'
-import Navbar from '../Components/Navbar/Navbar'
 import Everything from '../pages/Everything/Everything'
 import Men from '../Components/Men/Men'
 import Home from '../Components/Home/Home'
 import AboutUs from '../pages/AboutUs/AboutUs'
+import ContactUs from '../pages/ContactUs/ContactUs'
 
 const Router = createBrowserRouter ([
     {
@@ -28,6 +28,10 @@ const Router = createBrowserRouter ([
             {
                 path: "/about",
                 element: <AboutUs></AboutUs>
+            },
+            {
+                path: "/contact-us",
+                element: <ContactUs></ContactUs>
             }
         ]
     }
