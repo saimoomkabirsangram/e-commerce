@@ -18,7 +18,7 @@ const Allmenu = () => {
       {/* <HomeCard /> */}
       <FeatureProductCard></FeatureProductCard>
       <SpecialEdition></SpecialEdition>
-      <PersonCard></PersonCard>
+      {/* <PersonCard></PersonCard> */}
       <CompanyServices/>
       <Footer></Footer>
     </div>
