@@ -5,22 +5,21 @@ const PersonCard = () => {
   const [people, setPeople] = useState([]);
 
   useEffect(() => {
-    fetch("./TeamData.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(
-            `Network response was not ok: ${response.status} - ${response.statusText}`
-          );
-        }
-        return response.json();
-      })
-      .then((data) => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("./TeamData.json");
+        const data = await response.json();
+        console.log("Fetched Data:", data);
         setPeople(data);
-      })
-      .catch((error) => {
-        console.error("Error Fetching Data:", error.message);
-      });
+      } catch (error) {
+        console.error("Error Fetching Data:");
+      }
+    };
+
+    fetchData();
   }, []);
+
+  
 
   return (
     <div>

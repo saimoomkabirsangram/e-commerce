@@ -1,39 +1,38 @@
 [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "position": "Software Engineer",
-      "image": "https://example.com/john_doe.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "position": "Graphic Designer",
-      "image": "https://example.com/jane_smith.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Bob Johnson",
-      "position": "Product Manager",
-      "image": "https://example.com/bob_johnson.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Alice Williams",
-      "position": "Data Scientist",
-      "image": "https://example.com/alice_williams.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Charlie Brown",
-      "position": "Marketing Specialist",
-      "image": "https://example.com/charlie_brown.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Eva Davis",
-      "position": "UX Designer",
-      "image": "https://example.com/eva_davis.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "John Doe",
+    "position": "Software Engineer",
+    "image": "https://example.com/john_doe.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "position": "Graphic Designer",
+    "image": "https://example.com/jane_smith.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "position": "Product Manager",
+    "image": "https://example.com/bob_johnson.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Alice Williams",
+    "position": "Data Scientist",
+    "image": "https://example.com/alice_williams.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Charlie Brown",
+    "position": "Marketing Specialist",
+    "image": "https://example.com/charlie_brown.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Eva Davis",
+    "position": "UX Designer",
+    "image": "https://example.com/eva_davis.jpg"
+  }
+]

@@ -1,7 +1,7 @@
 .bg-image{
     width: 100%;
     height: 80vh;
-    background-image: url('../../../public/images/b8882b7b-aa16-41a6-ad0b-268dfd6a0cad.jpeg');
+    background-image: linear-gradient(rgba(16, 87, 125, 0.7), rgba(6, 47, 69, 0.3)), url('../../../public/images/b8882b7b-aa16-41a6-ad0b-268dfd6a0cad.jpeg');
     opacity: 90%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
