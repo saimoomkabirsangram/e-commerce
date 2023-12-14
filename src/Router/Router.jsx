@@ -6,6 +6,7 @@ import Men from '../Components/Men/Men'
 import Home from '../Components/Home/Home'
 import AboutUs from '../pages/AboutUs/AboutUs'
 import ContactUs from '../pages/ContactUs/ContactUs'
+import Cart from '../Components/Cart/Cart'
 
 const Router = createBrowserRouter ([
     {
@@ -32,6 +33,10 @@ const Router = createBrowserRouter ([
             {
                 path: "/contact-us",
                 element: <ContactUs></ContactUs>
+            },
+            {
+                path: "/cart",
+                element: <Cart></Cart>
             }
         ]
     }
