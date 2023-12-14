@@ -19,9 +19,9 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="bg-[#F5F7F9] py-10">
-      <div className="lg:flex lg:justify-between  bg-white  mx-14   lg:p-12 p-5">
-        <div className="lg:w-1/2 lg:p-10 p-8">
-          <div className=" lg:mb-5 mb-3  border-[2px] w-28 border-blue-600 "></div>
+      <div className="lg:flex lg:justify-between  bg-white  lg:mx-14 lg:p-12 p-5">
+        <div className="lg:w-1/2 lg:p-10 pb-4 lg:text-left text-center ">
+          <div className=" lg:mb-5 mb-3  border-[2px] w-28 border-blue-600 hidden lg:block "></div>
           <h1 className="text-4xl text-black font-bold mb-8 lg:mb-10">
             Who We Are
           </h1>
@@ -54,7 +54,7 @@ const AboutUs = () => {
       </div>
       <div>
          <div className="b-image">
-         <div className="bg-white h-full w-[450px] m-auto flex  justify-center items-center ">
+         <div className="bg-white h-full  lg:w-[450px] w-[300px] m-auto flex  justify-center items-center ">
           <div className="flex flex-col justify-center items-center text-black ">
          <div className=" lg:mb-5 mb-3  border-[2px] w-20 border-blue-600 "></div>
           <h1 className=" font-bold lg:text-4xl text-2xl">Follow Us</h1>

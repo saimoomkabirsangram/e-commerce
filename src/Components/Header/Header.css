@@ -7,3 +7,58 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* Responsive breakpoints */
+@media (max-width: 991px) {
+    .header-img {
+        height: 75vh;
+        background-position: 50% 50%;
+    }
+}
+
+@media (max-width: 851px) {
+    .header-img {
+        height: 80vh;
+        background-position: 50% 50%;
+    }
+}
+
+@media (max-width: 771px) {
+    .header-img {
+        height: 65vh;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 561px) {
+    .header-img {
+        height: 50vh;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 520px) {
+    .header-img {
+        height: 55vh;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 470px) {
+    .header-img {
+        height: 55vh;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 376px) {
+    .header-img {
+        height: 55vh;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
