@@ -14,7 +14,7 @@ const Cart = () => {
           <table class='w-full text-sm text-left rtl:text-right text-gray-500 border'>
             <thead class='text-xs text-gray-700 uppercase bg-white  '>
               <tr class='bg-white border-b '>
-                <th scope='col' class='px-6 py-3'>
+                <th scope='col' class='px-16 py-3'>
                   <span class='sr-only'></span>
                 </th>
                 <th scope='col' class='px-16 py-3'>
@@ -36,9 +36,9 @@ const Cart = () => {
             </thead>
             <tbody className=''>
               <tr class='bg-white border-b '>
-                <td class=' px-6 py-4 font-semibold text-black mr-0'>
+                <td class=' px-6 py-4 font-semibold text-black mr-0 '>
                   <button class=''>
-                    <IoCloseCircleOutline className='text-black text-2xl ' />
+                <IoCloseCircleOutline className='text-black text-2xl  ' />
                   </button>
                 </td>
                 <td class='p-4'>
@@ -68,7 +68,7 @@ const Cart = () => {
                 <td class='px-6 py-4 font-semibold text-gray-900 '>$599.00</td>
               </tr>
               <tr>
-                <div class='flex items-center justify-center'>
+                <div class='flex items-center justify-start'>
                   <div className='text-black'>
                     <input
                       type='number'
