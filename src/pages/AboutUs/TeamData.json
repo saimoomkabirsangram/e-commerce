@@ -3,36 +3,36 @@
     "id": 1,
     "name": "John Doe",
     "position": "Software Engineer",
-    "image": "https://i.ibb.co/xgfVTRR/d4b397a2-939e-45d5-a919-241123776991.jpg"
+    "image": "https://i.ibb.co/JxRLgLT/10010.png"
   },
   {
     "id": 2,
     "name": "Jane Smith",
     "position": "Graphic Designer",
-    "image": "https://i.ibb.co/xgfVTRR/d4b397a2-939e-45d5-a919-241123776991.jpg"
+    "image": "https://i.ibb.co/RDdR9LJ/10009.png"
   },
   {
     "id": 3,
     "name": "Bob Johnson",
     "position": "Product Manager",
-    "image": "https://i.ibb.co/xgfVTRR/d4b397a2-939e-45d5-a919-241123776991.jpg"
+    "image": "https://i.ibb.co/Ldj31DM/10008.png"
   },
   {
     "id": 4,
     "name": "Alice Williams",
     "position": "Data Scientist",
-    "image": "https://i.ibb.co/xgfVTRR/d4b397a2-939e-45d5-a919-241123776991.jpg"
+    "image": "https://i.ibb.co/zVdVksj/10005.png"
   },
   {
     "id": 5,
     "name": "Charlie Brown",
     "position": "Marketing Specialist",
-    "image": "https://i.ibb.co/xgfVTRR/d4b397a2-939e-45d5-a919-241123776991.jpg"
+    "image": "https://i.ibb.co/hDws9z2/10004.png"
   },
   {
     "id": 6,
     "name": "Eva Davis",
     "position": "UX Designer",
-    "image": "https://i.ibb.co/xgfVTRR/d4b397a2-939e-45d5-a919-241123776991.jpg"
+    "image": "https://i.ibb.co/r6f34Fj/10021.jpg"
   }
 ]
