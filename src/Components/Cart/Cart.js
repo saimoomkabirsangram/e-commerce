@@ -9,7 +9,7 @@ const Cart = () => {
         <h1 className='text-center text-gray-500 text-6xl font-bold lg:mt-24 lg:mb-16'>
           Cart
         </h1>
-        {/* cart table part here  */}
+        
 
         <div class='relative overflow-x-auto lg:mx-28 sm:rounded-lg'>
           <table class='w-full text-sm text-left rtl:text-right text-gray-500 border'>
@@ -35,11 +35,11 @@ const Cart = () => {
                 </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className=''>
               <tr class='bg-white border-b '>
-                <td class='ps-10 py-4'>
-                  <button class=' ms-4'>
-                    <IoCloseCircleOutline className='text-black text-2xl text-center' />
+                <td class=' px-6 py-4 font-semibold text-black mr-0'>
+                  <button class=''>
+                    <IoCloseCircleOutline className='text-black text-2xl ' />
                   </button>
                 </td>
                 <td class='p-4'>
@@ -89,9 +89,9 @@ const Cart = () => {
             </tbody>
           </table>
         </div>
-        <div className=''>
+        <div >
         <div class='relative overflow-x-auto lg:mx-28 sm:rounded-lg flex flex-col'>
-          <table class='w-1/2 text-sm text-left rtl:text-right text-gray-500  float-right mt-10'>
+          <table class='w-1/2 text-sm text-left rtl:text-right text-gray-500  float-right mt-10 border'>
             <thead class='text-xs text-gray-700 uppercase bg-white  '>
               <tr class='bg-white border-b '>
                 <th scope='col' class='px-6 py-3'>
@@ -114,7 +114,7 @@ const Cart = () => {
               <tr className='bg-white border-b'></tr>
             </tbody>
           </table>
-          <div className='m-3 '>
+          <div className='my-5'>
             <button className='lg:py-3 lg:px-4 mb-1 w-1/2 hover:text-white font-medium py-2 px-3 text-white bg-blue-500 hover:bg-blue-600 block'>
               CHECKOUT
             </button>
