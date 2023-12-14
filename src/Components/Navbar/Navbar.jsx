@@ -104,9 +104,9 @@ const Navbar = () => {
                   </div>
                 </div>
                 <hr className=" border-gray-300 w-full" />
-                <div className="text-black ">
-                  <div className="flex justify-between items-center p-10">
-                    <div className="flex items-center gap-10">
+                <div className="text-black h-[50vh]">
+                  <div className="flex justify-between items-center p-5">
+                    <div className="flex items-center gap-7">
                       <img
                         className="h-[50px] w-[50px ]"
                         src="https://i.ibb.co/27SjC0F/10013.jpg"
@@ -124,7 +124,7 @@ const Navbar = () => {
                 </div>
                 <div>
                   <hr className=" border-gray-300 w-full" />
-                  <div className="flex justify-between p-5">
+                  <div className="flex justify-between p-5 ">
                     <p className="font-bold ">Subtotal:</p>
                     <p className="font-bold">$150.00</p>
                   </div>
