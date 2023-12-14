@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiShoppingBag } from "react-icons/hi";
 import { FiUser } from "react-icons/fi";
-import { RxCross2 } from "react-icons/rx";
+import { RiCloseCircleLine } from "react-icons/ri";
+import { AiFillCloseCircle } from "react-icons/ai";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -52,8 +53,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <Link className="normal-case lg:text-4xl text-lg font-bold">DNK 2.0</Link>
+        <div className="">
+          <Link><img className=" w-[100px]" src="https://i.ibb.co/mG666B8/DNK-white.png" alt="" /></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -94,12 +95,12 @@ const Navbar = () => {
               <div className="cart-content">
                 <div className="p-5">
                   <div className="flex justify-between items-center">
-                    <h1 className="text-lg font-bold">Shopping Cart</h1>
+                    <h1 className="text-lg font-light">Shopping Cart</h1>
                     <button
-                      className="text-end font-bold"
+                      className=" text-end font-bold"
                       onClick={handleCartToggle}
                     >
-                      X
+                      <AiFillCloseCircle />
                     </button>
                   </div>
                 </div>
@@ -113,27 +114,27 @@ const Navbar = () => {
                         alt=""
                       ></img>
                       <div>
-                        <p>Black Hoodie</p>
-                        <p>1 * $150.00</p>
+                        <p className="font-light">Black Hoodie</p>
+                        <p className="font-light">1 * $150.00</p>
                       </div>
                     </div>
-                    <div className="border rounded-full border-black justify-end">
-                      <RxCross2 />
+                    <div className="border-black justify-end ">
+                    <Link><RiCloseCircleLine /></Link>
                     </div>
                   </div>
                 </div>
                 <div>
                   <hr className=" border-gray-300 w-full" />
                   <div className="flex justify-between p-5 ">
-                    <p className="font-bold ">Subtotal:</p>
-                    <p className="font-bold">$150.00</p>
+                    <p className="font-light ">Subtotal:</p>
+                    <p className="font-light">$150.00</p>
                   </div>
                   <hr className=" border-gray-300 w-full" />
                 </div>
                 <div className="px-5 py-5 text-white ">
-                  <button className="w-full bg-[#0084D7]  p-3 mb-3  " >VIEW CART</button>
-                  <button className="w-full bg-[#0084D7]  p-3  mb-3">CHECKOUT</button>
-                  <button className="w-full bg-[#0084D7] p-3  mb-3">CONTINUE SHOPPING</button>
+                  <button className="w-full bg-[#0084D7] hover:bg-[#5a61b3] p-3 mb-3  " >VIEW CART</button>
+                  <button className="w-full bg-[#0084D7] hover:bg-[#5a61b3]  p-3  mb-3">CHECKOUT</button>
+                  <button className="w-full bg-[#0084D7] hover:bg-[#5a61b3] p-3  mb-3">CONTINUE SHOPPING</button>
                 </div>
               </div>
             </div>

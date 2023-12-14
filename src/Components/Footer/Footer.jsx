@@ -4,6 +4,7 @@ import { FaYoutube } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
       <footer className="footer  text-black  my-4 text-center mb-10 py-10">
 
         <div className="">
-          <h1 className="font-bold text-3xl mb-6 ">DNK 2.0 </h1>
+        <Link className="mb-10"><img className=" w-[100px]" src="https://i.ibb.co/VWPYMjJ/DNK20.png" alt="" /></Link>
           <p className="font-bold text-2xl">
           The best look anytime, anywhere.
           </p>

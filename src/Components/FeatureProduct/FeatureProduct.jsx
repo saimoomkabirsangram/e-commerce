@@ -35,7 +35,7 @@ const FeatureProduct = ({ product }) => {
           <img
             src={product.image}
             alt="Shoes"
-            className="object-cover w-[300px] h-[300px]"
+            className="object-cover w-[250px] h-[250px]"
             style={{ objectFit: "cover" }}
           />
         </figure>
