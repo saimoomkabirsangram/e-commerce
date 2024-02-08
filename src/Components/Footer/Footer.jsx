@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="lg:mx-20 py-20">
+    <div className="lg:mx-20 py-20 ">
         <div className="text-black text-center ">
           <hr />
           <h1 className="my-14 lg:text-3xl text-2xl font-bold hover:text-blue-500">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
